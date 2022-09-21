@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(227, 214, 196);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 50px 20px;
+}
+
+.frames {
+    height: 100%;
+    width: 300px;
+    border-radius: 25px;
+    padding: 30px 20px;
+    background-color: #fff;
+    background-image: url(/plays/cool-background\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.welcome-frame {
+    padding: 30px 50px;
+    display: inline-block;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.bar1 {
+    width: 10px;
+    height: 40px;
+    background-color: rgb(89, 29, 144);
+}
+
+.bar2 {
+    width: 10px;
+    height: 50px;
+    background-color: rgb(89, 29, 144);
+}
+
+.bar3 {
+    width: 10px;
+    height: 60px;
+    background-color: rgb(89, 29, 144);
+}
+
+.bar4 {
+    width: 10px;
+    height: 70px;
+    background-color: rgb(89, 29, 144);
+}
+
+.bar5 {
+    width: 10px;
+    height: 80px;
+    background-color: rgb(89, 29, 144);
+}
+
+.welcome-frame p {
+    font-size: 12px;
+    margin-bottom: 240px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: rgb(89, 29, 144);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    margin: 5px 0;
+}
+
+form {
+    overflow: hidden;
+    align-content: center;
+    bottom: 0;
+    color: #fff;
+    margin-top: 120px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: transparent;
+    border-radius: 16px;
+}
